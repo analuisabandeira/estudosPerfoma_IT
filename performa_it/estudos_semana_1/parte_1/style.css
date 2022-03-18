@@ -7,12 +7,14 @@ header {
     width: 940px;
     position: relative;
     margin: 0 auto;
+}
 
-#banner-box{
+.navbar {
+
     position: absolute;
     top: 110px;
     right: 0;
- }
+}
 
 
 .main {
@@ -94,8 +96,9 @@ main {
 
 .image-benefits {
     width: 50%;
+}
 
-.products li:active{
+.products li:active {
     border-color: #088C19;
 }
 
