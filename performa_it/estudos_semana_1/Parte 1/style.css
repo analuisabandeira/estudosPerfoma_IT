@@ -227,12 +227,14 @@ th, td {
 
     .banner-box h1 {
 
+        width: auto;
         margin-bottom: 10px;
     }
 
     .navbar {
 
-        padding: 10px;
+        width: auto;
+        
     }
 
     .navbar-list{ 
@@ -243,8 +245,10 @@ th, td {
 
     .navbar-list li {
 
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
+        padding-bottom: 5px;
         border-bottom: 1px solid #9799A6;
+
     }
 
     main {
@@ -280,7 +284,7 @@ th, td {
 
         width: auto;
         margin: 0 10px 20px 10px;
-        padding: 10px 25px;
+        padding: 10px;
         text-align: left;
     }
 
