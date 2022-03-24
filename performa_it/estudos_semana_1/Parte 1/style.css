@@ -1,13 +1,15 @@
 header {
-    background: #BBBBBB;
-    padding: 20px 0;
+    width: 100%;
+	min-width: 200px;
+
 }
 
 .banner-box {
-    width: 940px;
-    margin: 0 auto;
     display: flex;
+    background: #BBBBBB;
     justify-content: space-between;
+    padding: 0 20px;
+    margin: 0 auto;
     align-items: center;
 }
 
@@ -45,8 +47,10 @@ header {
 }
 
 main {
-    width: 940px;
+    width: 100%;
+    /* width: 940px; */
     margin: 0 auto;
+	min-width: 200px;
 }
 
 .benefits {
@@ -59,8 +63,10 @@ main {
 
     display: flex;
     justify-content: space-between;
-    width: 940px;
+    flex-wrap: wrap;
+    width: 100%;
     padding: 50px 0;
+    row-gap: 20px;
 }
 
 .products li {
@@ -71,6 +77,12 @@ main {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+}
+
+.products li img {
+    width: -webkit-fill-available;
 }
 
 
@@ -120,6 +132,7 @@ footer {
     text-align: center;
     background-image: url("imagens/bg.jpg");
     padding: 40px 0;
+	min-width: 200px;
 }
 
 .copyright{
@@ -212,6 +225,7 @@ th, td {
     padding: 15px 8px;
 }
 
+
 /* mobile */
 
 @media(max-width:768px) {
@@ -265,7 +279,7 @@ th, td {
 
     .products li {
 
-        margin: 20px auto;
+        margin: 0 auto;
     }
 
     .contact-form {
@@ -313,4 +327,5 @@ th, td {
         align-items: center;
         width: 100%;
     }
+    
 }
